@@ -1,0 +1,213 @@
+{
+  "image": "examples/demo_overlay.png",
+  "overlay": [
+    {
+      "type": "rectangle",
+      "points": [
+        [
+          30.0,
+          30.0
+        ],
+        [
+          210.0,
+          120.0
+        ]
+      ],
+      "color": [
+        0,
+        170,
+        0
+      ],
+      "filled": false
+    },
+    {
+      "type": "rectangle",
+      "points": [
+        [
+          240.0,
+          30.0
+        ],
+        [
+          420.0,
+          120.0
+        ]
+      ],
+      "color": [
+        0,
+        120,
+        255
+      ],
+      "filled": true
+    },
+    {
+      "type": "oval",
+      "points": [
+        [
+          30.0,
+          150.0
+        ],
+        [
+          210.0,
+          230.0
+        ]
+      ],
+      "color": [
+        255,
+        140,
+        0
+      ],
+      "filled": false
+    },
+    {
+      "type": "line",
+      "points": [
+        [
+          30.0,
+          150.0
+        ],
+        [
+          210.0,
+          230.0
+        ]
+      ],
+      "color": [
+        255,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "polyline",
+      "points": [
+        [
+          245.0,
+          165.0
+        ],
+        [
+          300.0,
+          150.0
+        ],
+        [
+          335.0,
+          215.0
+        ],
+        [
+          415.0,
+          175.0
+        ]
+      ],
+      "color": [
+        150,
+        0,
+        255
+      ]
+    },
+    {
+      "type": "polygon",
+      "points": [
+        [
+          250.0,
+          235.0
+        ],
+        [
+          320.0,
+          235.0
+        ],
+        [
+          285.0,
+          295.0
+        ]
+      ],
+      "color": [
+        0,
+        190,
+        190
+      ],
+      "filled": true
+    },
+    {
+      "type": "arc",
+      "color": [
+        255,
+        0,
+        255
+      ],
+      "bbox": [
+        [
+          350.0,
+          205.0
+        ],
+        [
+          450.0,
+          305.0
+        ]
+      ],
+      "start_angle": 0.0,
+      "end_angle": 270.0
+    },
+    {
+      "type": "point",
+      "points": [
+        [
+          120.0,
+          75.0
+        ]
+      ],
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "symbol": "cross"
+    },
+    {
+      "type": "point",
+      "points": [
+        [
+          330.0,
+          75.0
+        ]
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "symbol": "pixel"
+    },
+    {
+      "type": "text",
+      "text": "niEi overlay demo",
+      "origin": [
+        30.0,
+        305.0
+      ],
+      "color": [
+        200,
+        0,
+        0
+      ],
+      "font": "Arial",
+      "size": 20
+    },
+    {
+      "type": "text",
+      "text": "styled",
+      "origin": [
+        300.0,
+        305.0
+      ],
+      "color": [
+        0,
+        0,
+        200
+      ],
+      "font": "Arial",
+      "size": 20,
+      "style": {
+        "bold": true,
+        "italic": true
+      }
+    }
+  ]
+}
